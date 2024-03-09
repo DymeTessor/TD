@@ -1,0 +1,10 @@
+# 时钟与复位
+set_pin_assignment	{ sysclk }	{ LOCATION = R7; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ rst_n }	{ LOCATION = A14; IOSTANDARD = LVCMOS33; }
+
+# 调试接口
+set_pin_assignment	{ swclk }	{ LOCATION = R2; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ swdio }	{ LOCATION = P2; IOSTANDARD = LVCMOS33; }
+
+# 硬件工作指示灯
+set_pin_assignment	{ led_1s }	{ LOCATION = F16; IOSTANDARD = LVCMOS33; }
